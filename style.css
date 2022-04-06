@@ -37,22 +37,28 @@ footer {
 }
 
 @media (max-width: 768px) {
-    .logo-col,
+
+.header {
+    padding-top: 20px;
+}
+
+
+
+   
     .menu-col,
     .contacts-col {
         justify-content: center;
-        margin-top: 50px;
+      margin-top: 20px;
     
     }
 }
 
 @media (max-width: 768px) {
     .main-h1 {
-        padding-top: 140px !important;
+     padding-top: 0px !important;
+        margin-top: 60px !important;
     }
-.menu-col {
-    margin-top: 50px;
-}
+
 
 .contacts-col {
     display: flex;
