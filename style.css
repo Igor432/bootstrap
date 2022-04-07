@@ -43,11 +43,11 @@ footer {
   .menu-col,
   .contacts-col {
     justify-content: center;
-    margin-top: 50px;
+   
   }
 
   .nav-link {
-      margin-top: 40px !important;
+      margin-top: 20px !important;
   }
 
   .main-h1 {
@@ -84,7 +84,7 @@ footer {
       margin-bottom: 40px !important;
     }
   
-
+}
   .list-group-item {
     border: none;
     display: flex;
@@ -148,7 +148,7 @@ footer {
     background-color: #cc641a;
     border: transparent;
   }
-}
+
 
 #reviews {
   padding-left: 100px;
@@ -289,10 +289,18 @@ footer {
   margin-top: 50px;
 }
 
+.carousel-item {
+
+}
+
 .music-container {
   display: flex;
   flex-wrap: wrap;
   margin-top: 50px;
+  gap: 40px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 .folio-text {
@@ -300,6 +308,11 @@ footer {
   padding-right: 50px;
   line-height: 2;
   margin-top: 50px;
+}
+
+.song {
+    margin-top: 50px;
+
 }
 
 /* FOOTER */
