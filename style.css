@@ -169,6 +169,12 @@ footer {
 
 .image-container {
   margin-bottom: 80px;
+ 
+}
+
+#reviews {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .about-container {
